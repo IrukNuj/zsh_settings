@@ -1,3 +1,10 @@
+# [path]------------------------------------------------------------
+## [Bill One]------------------------------------------------------------
+alias -g bo_mono='~/work/billone/bill-one-monorepo/'
+alias -g bo_front='~/work/billone/bill-one-frontend/'
+## ------------------------------------------------------------
+# ------------------------------------------------------------
+
 # [rails]------------------------------------------------------------
 alias be='bundle exec'
 alias br='bin/rails'
@@ -28,7 +35,7 @@ alias clone='git clone'
 alias gti='git'
 alias gpocf='gpoc --force-with-lease'
 alias gld='git log --graph --decorate --oneline'
-# ------------------------------------------------------------s
+# ------------------------------------------------------------
 
 # [エイリアス]------------------------------------------------------------
 alias zshset='source ~/.zprofile'
@@ -39,6 +46,8 @@ alias macset='code ~/Works/mac-auto-setup/'
 # [エディタ]------------------------------------------------------------
 alias rmine='/usr/local/bin/mine'
 alias ij='/usr/local/bin/idea'
+alias -g to='>>'
+alias -g to_zsh='| >> ${ZDOTDIR:-$HOME}/zsh/dotfile/index.sh'
 # ------------------------------------------------------------
 
 # [docker]------------------------------------------------------------
@@ -66,7 +75,7 @@ alias m='tldr'
 alias his='history'
 # ------------------------------------------------------------
 
-alias -g to='>>'
-alias -g to_zsh='| >> ${ZDOTDIR:-$HOME}/zsh/dotfile/index.sh'
-
-# ------------------------
+# [pueue]------------------------------------------------------------
+alias qued='pueued -d && pueue add'
+alias que='pueue add'
+# ------------------------------------------------------------

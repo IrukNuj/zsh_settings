@@ -14,25 +14,6 @@ source ~/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/zsh/plugins/zsh-completions/zsh-completions.plugin.zsh
 # ------------------------------------------------------------
 
-# [billone]------------------------------------------------------------
-source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc'
-source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc'
-
-# stg
-alias billone-pf-all='billone-pf-invoice & billone-pf-network & billone-pf-tenant &'
-alias billone-pf-center=$'cloud_sql_proxy -instances=bill-one-stg:asia-northeast1:bill-one-center-bff-stg=tcp:15437\C-?'
-alias billone-pf-invoice='cloud_sql_proxy -instances=bill-one-stg:asia-northeast1:bill-one-invoice-stg=tcp:15434'
-alias billone-pf-network='cloud_sql_proxy -instances=bill-one-stg:asia-northeast1:bill-one-network-stg=tcp:15435'
-alias billone-pf-tenant='cloud_sql_proxy -instances=bill-one-stg:asia-northeast1:bill-one-tenant-stg=tcp:15436'
-
-# prod
-alias billone-pf-all-prod='billone-pf-invoice-prod & billone-pf-network-prod & billone-pf-tenant-prod &'
-alias billone-pf-center-prod='cloud_sql_proxy -instances=bill-one-prod:asia-northeast1:bill-one-center-bff-prod=tcp:25437'
-alias billone-pf-invoice-prod='cloud_sql_proxy -instances=bill-one-prod:asia-northeast1:bill-one-invoice-prod=tcp:25434'
-alias billone-pf-network-prod='cloud_sql_proxy -instances=bill-one-prod:asia-northeast1:bill-one-network-prod=tcp:25435'
-alias billone-pf-tenant-prod='cloud_sql_proxy -instances=bill-one-prod:asia-northeast1:bill-one-tenant-prod=tcp:25436'
-# ------------------------------------------------------------
-
 # [Eight]------------------------------------------------------------
 
 # ------------------------------------------------------------
@@ -47,6 +28,16 @@ autoload -Uz colors && colors        # 色を使用出来るようにする
 
 zstyle ':completion:*:processes' menu yes select=2  # kill コマンドのようなものに関しては候補をタブで選択できるようにする
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}' # 補完で小文字でも大文字にマッチさせる
+
+# auto-completion
+if [ -f /opt/local/etc/profile.d/bash_completion.sh ]; then
+  . /opt/local/etc/profile.d/bash_completion.sh
+fi
+
+# bookmarks
+if [ -d "${HOME}/zsh/.bookmarks" ]; then
+  export CDPATH=".:${HOME}/zsh/.bookmarks:/"
+fi
 
 setopt correct              # もしかして機能
 setopt share_history        # 同時に起動した zsh の間でヒストリを共有する
@@ -65,3 +56,5 @@ setopt EXTENDED_HISTORY
 # ------------------------------------------------------------
 
 # ------------------------
+source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc'
+source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc'

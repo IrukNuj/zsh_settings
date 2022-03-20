@@ -1,0 +1,73 @@
+{
+  "bc": { "1": null, "2": null, "3": null, "4": null, "5": null },
+  "banks": [
+    {
+      "code": "0009",
+      "iban": null,
+      "kana": "ﾐﾂｲｽﾐﾄﾓ",
+      "name": "三井住友",
+      "index": 0,
+      "rawName": null,
+      "swiftCode": null,
+      "branchCode": "219",
+      "branchKana": "ｶﾝﾀﾞ",
+      "branchName": "神田",
+      "accountName": "ｶ)ﾒﾃﾞｲｾｵ",
+      "accountType": "current",
+      "accountNumber": "0000968",
+      "rawBranchName": null,
+      "rawAccountName": "カ)メデイセオ",
+      "rawAccountType": null
+    },
+    {
+      "code": "0005",
+      "iban": null,
+      "kana": "ﾐﾂﾋﾞｼﾕ-ｴﾌｼﾞｴｲ",
+      "name": "三菱ＵＦＪ",
+      "index": 1,
+      "rawName": null,
+      "swiftCode": null,
+      "branchCode": "337",
+      "branchKana": "ｳｴﾉ",
+      "branchName": "上野",
+      "accountName": "ｶ)ﾒﾃﾞｲｾｵ",
+      "accountType": "current",
+      "accountNumber": "0005136",
+      "rawBranchName": null,
+      "rawAccountName": "カ)メデイセオ",
+      "rawAccountType": null
+    },
+    {
+      "code": "0001",
+      "iban": null,
+      "kana": "ﾐｽﾞﾎ",
+      "name": "みずほ",
+      "index": 2,
+      "rawName": null,
+      "swiftCode": null,
+      "branchCode": "490",
+      "branchKana": "ｺｳﾍﾞ",
+      "branchName": "神戸",
+      "accountName": "ｶ)ﾒﾃﾞｲｾｵ",
+      "accountType": "current",
+      "accountNumber": "0003100",
+      "rawBranchName": null,
+      "rawAccountName": "カ)メデイセオ",
+      "rawAccountType": null
+    }
+  ],
+  "address": null,
+  "payment": "19107",
+  "zipCode": null,
+  "category": "domestic",
+  "currency": null,
+  "linkCode": null,
+  "paymentDate": "0126",
+  "publisherName": "株式会社メディセオ",
+  "rotationAngle": 0,
+  "consumptionTax": {
+    "tax": "1737",
+    "taxRatePercentage": "10",
+    "amountExcludingTax": "17370"
+  }
+}

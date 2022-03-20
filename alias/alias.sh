@@ -55,7 +55,8 @@ alias l='lsd -la1'
 alias cat='bat'
 alias grep='rg'
 # alias -g G='| grep'
-alias m='tldr'
+alias man='tldr'
+alias trans='trans en:ja -b'
 alias his='history'
 # ------------------------------------------------------------
 

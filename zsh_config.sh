@@ -25,9 +25,12 @@ setopt no_beep              # ビープ音の停止
 setopt print_eight_bit      # 日本語ファイル名を表示可能にする
 setopt hist_ignore_all_dups # 入力したコマンドがすでにコマンド履歴に含まれる場合、履歴から古いほうのコマンドを削除する
 setopt hist_ignore_space    # コマンドがスペースで始まる場合、コマンド履歴に追加しない/履歴に残したくないコマンドを入力するとき使う
+setopt inc_append_history   # 実行時に履歴をファイルにに追加していく
 
 HISTFILE=~/.zsh_history # ヒストリの設定
 HISTSIZE=1000000
 SAVEHIST=1000000
 setopt EXTENDED_HISTORY
+# share .zshhistory
+
 # ------------------------------------------------------------

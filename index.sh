@@ -19,6 +19,7 @@ source ~/zsh/dotfile/plugins/flutter-completion.zsh
 
 eval "$(starship init zsh)"
 eval "$(direnv hook zsh)"
+source $($HOME/.cargo/env)
 # eval "$(pueued -d)"
 
 # ------------------------

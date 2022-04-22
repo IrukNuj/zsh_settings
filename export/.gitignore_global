@@ -1,0 +1,13 @@
+.idea/
+.DS_Store
+.node-version
+.whiteboard/
+yarn.lock
+vendor/bundle/
+.solargraph.yml
+.iml
+.idea
+**/.idea/**
+package-lock.json
+memo
+.tours

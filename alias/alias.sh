@@ -1,4 +1,4 @@
-source ~/zsh/dotfile/alias/bill-one.sh
+# source ~/zsh/dotfile/alias/bill-one.sh
 source ~/zsh/dotfile/alias/git.sh
 
 # ------------------------------------------------------------
@@ -18,10 +18,16 @@ alias ys='yarn start'
 
 # ------------------------------------------------------------
 # [エイリアス]
+alias reload='source ~/.zshrc'
 alias zshset='source ~/.zprofile'
 alias bashset='source ~/.bash_profile'
 alias macset='code ~/Works/mac-auto-setup/'
 alias aliases='bat ~/zsh/dotfile/alias.sh'
+# ------------------------------------------------------------
+
+# ------------------------------------------------------------
+# for WSL
+alias pbcopy='xsel --clipboard --input'
 # ------------------------------------------------------------
 
 # ------------------------------------------------------------
@@ -51,9 +57,12 @@ alias ping='gping'
 # alias diff='delta'
 alias ls='lsd'
 alias ll='ls -alFG'
-alias l='lsd -la1'
+alias l='lsd -la1 --tree --depth 1'
 alias cat='bat'
 alias grep='rg'
+alias ps='procs'
+alias top='btm --color nord  --network_use_log  --process_command -T --current_usage'
+alias curl2='https --check-status --sorted --pretty 'all' '
 # alias -g G='| grep'
 alias man='tldr'
 alias trans='trans en:ja -b'

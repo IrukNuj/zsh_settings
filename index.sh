@@ -13,6 +13,7 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 source ~/zsh/dotfile/alias/alias.sh
 source ~/zsh/dotfile/zplug.sh
 source ~/zsh/dotfile/zsh_config.sh
+source ~/zsh/dotfile/open.sh
 # ------------------------------------------------------------
 
 zplug "zsh-users/zsh-autosuggestions"

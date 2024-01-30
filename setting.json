@@ -1,7 +1,5 @@
 {
-  // --------------------------------------------------
-  // JavaScript
-  // --------------------------------------------------
+  // .js --------------------------------------------------
   "[javascript]": {
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -19,9 +17,8 @@
   "javascript.suggest.completeFunctionCalls": true,
   "javascript.inlayHints.enumMemberValues.enabled": true,
   // --------------------------------------------------
-  // --------------------------------------------------
-  // TypeScript
-  // --------------------------------------------------
+
+  // .ts --------------------------------------------------
   "[typescript]": {
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -58,17 +55,15 @@
   "deno.inlayHints.propertyDeclarationTypes.enabled": true,
   "deno.inlayHints.variableTypes.enabled": true,
   // --------------------------------------------------
-  // --------------------------------------------------
-  // .tsx
-  // --------------------------------------------------
+
+  // .tsx --------------------------------------------------
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true
   },
   // --------------------------------------------------
-  // --------------------------------------------------
-  // markdown
-  // --------------------------------------------------
+
+  // .md --------------------------------------------------
   "[markdown]": {
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -85,6 +80,7 @@
   "markdown-preview-enhanced.mermaidTheme": "dark",
   "markdownlint.run": "onSave",
   // --------------------------------------------------
+
   // --------------------------------------------------
   // vscode-editor.config
   // --------------------------------------------------
@@ -104,9 +100,11 @@
     "source.fixAll.stylelint": "explicit"
   },
   // --------------------------------------------------
+
   // --------------------------------------------------
   // vscode.config
   // --------------------------------------------------
+
   // --- vscode-workbench.config ---
   "workbench.tree.renderIndentGuides": "always",
   "workbench.startupEditor": "none",
@@ -114,6 +112,7 @@
   "workbench.editor.tabSizing": "shrink",
   "workbench.iconTheme": "vscode-icons",
   "workbench.tree.indent": 16,
+
   // --- vscode-terminal.config ---
   "terminal.integrated.env.linux": {},
   "terminal.integrated.fontSize": 12,
@@ -121,6 +120,7 @@
   "terminal.integrated.defaultProfile.linux": "zsh",
   "terminal.integrated.copyOnSelection": true,
   "terminal.integrated.rightClickBehavior": "paste",
+
   // --- vscode-files.config ---
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
@@ -133,9 +133,8 @@
     "**/node_modules": true
   },
   // --------------------------------------------------
-  // --------------------------------------------------
-  // ruby
-  // --------------------------------------------------
+
+  // .rb --------------------------------------------------
   "[ruby]": {
     "editor.defaultFormatter": "Shopify.ruby-lsp",
     "editor.rulers": [120],
@@ -178,9 +177,9 @@
   "solargraph.diagnostics": true,
   "solargraph.rename": false,
   // --------------------------------------------------
-  // --------------------------------------------------
-  // golang
-  // --------------------------------------------------
+
+  // .go --------------------------------------------------
+
   // For gopls
   "go.formatTool": "goimports",
   "[go]": {
@@ -191,6 +190,7 @@
     // Optional: Disable snippets, as they conflict with completion ranking.
     "editor.snippetSuggestions": "none"
   },
+
   // Global settings for gopls
   // https://github.com/golang/tools/blob/master/gopls/doc/settings.md
   "gopls": {
@@ -214,6 +214,7 @@
   },
   "go.toolsManagement.autoUpdate": true,
   // --------------------------------------------------
+
   // --------------------------------------------------
   // language-settings
   // --------------------------------------------------

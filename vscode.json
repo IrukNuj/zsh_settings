@@ -1,0 +1,359 @@
+{
+  // .js --------------------------------------------------
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "javascript.format.insertSpaceAfterConstructor": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "javascript.format.placeOpenBraceOnNewLineForFunctions": true,
+  "javascript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+  "javascript.format.semicolons": "insert",
+  "javascript.preferences.importModuleSpecifier": "non-relative",
+  "javascript.suggest.completeFunctionCalls": true,
+  "javascript.inlayHints.enumMemberValues.enabled": true,
+  // --------------------------------------------------
+
+  // .ts --------------------------------------------------
+  "[typescript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "typescript.format.insertSpaceAfterConstructor": true,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
+  "typescript.format.insertSpaceAfterTypeAssertion": true,
+  "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "typescript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+  "typescript.format.placeOpenBraceOnNewLineForFunctions": true,
+  "typescript.format.semicolons": "insert",
+  "typescript.suggest.completeFunctionCalls": true,
+  "typescript.suggest.completeJSDocs": true,
+  "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "typescript.inlayHints.parameterTypes.enabled": true,
+  "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "typescript.inlayHints.variableTypes.enabled": true,
+  "typescript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": true,
+  "typescript.inlayHints.enumMemberValues.enabled": true,
+  "typescript.inlayHints.parameterNames.enabled": "all",
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.tsserver.log": "off",
+  "typescript.implementationsCodeLens.enabled": true,
+  "typescript.tsserver.maxTsServerMemory": 16384,
+  // "typescript.referencesCodeLens.enabled": true,
+  "deno.inlayHints.enumMemberValues.enabled": true,
+  "deno.inlayHints.functionLikeReturnTypes.enabled": true,
+  "deno.inlayHints.parameterNames.enabled": "all",
+  "deno.inlayHints.parameterTypes.enabled": true,
+  "deno.inlayHints.propertyDeclarationTypes.enabled": true,
+  "deno.inlayHints.variableTypes.enabled": true,
+  // --------------------------------------------------
+
+  // .tsx --------------------------------------------------
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  // --------------------------------------------------
+
+  // .md --------------------------------------------------
+  "[markdown]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "markdown-preview-enhanced.enableExtendedTableSyntax": true,
+  "markdown-preview-enhanced.enableScriptExecution": true,
+  "markdown-preview-enhanced.enableTypographer": true,
+  "markdown-preview-enhanced.scrollSync": true,
+  "markdown-preview-enhanced.previewTheme": "night.css",
+  "markdown-preview-enhanced.enableHTML5Embed": true,
+  "markdown-preview-enhanced.enableCriticMarkupSyntax": true,
+  "markdown-preview-enhanced.HTML5EmbedIsAllowedHttp": true,
+  "markdown-preview-enhanced.HTML5EmbedUseLinkSyntax": true,
+  "markdown-preview-enhanced.mermaidTheme": "dark",
+  "markdownlint.run": "onSave",
+  // --------------------------------------------------
+
+  // --------------------------------------------------
+  // vscode-editor.config
+  // --------------------------------------------------
+  "editor.copyWithSyntaxHighlighting": true,
+  "editor.formatOnType": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 2,
+  "editor.fontFamily": "HackGenNerd",
+  "editor.inlineSuggest.enabled": true,
+  "editor.codeLensFontFamily": "HackGenNerd",
+  "editor.fontSize": 12,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.stylelint": "explicit"
+  },
+  // --------------------------------------------------
+
+  // --------------------------------------------------
+  // vscode.config
+  // --------------------------------------------------
+
+  // --- vscode-workbench.config ---
+  "workbench.tree.renderIndentGuides": "always",
+  "workbench.startupEditor": "none",
+  "workbench.colorTheme": "Monokai",
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.tree.indent": 16,
+
+  // --- vscode-terminal.config ---
+  "terminal.integrated.env.linux": {},
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.env.windows": {},
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.rightClickBehavior": "paste",
+
+  // --- vscode-files.config ---
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.associations": {
+    "*.jb": "ruby"
+  },
+  "files.exclude": {
+    "**/dist": true,
+    "**/node_modules": true
+  },
+  // --------------------------------------------------
+
+  // .rb --------------------------------------------------
+  "[ruby]": {
+    "editor.defaultFormatter": "Shopify.ruby-lsp",
+    "editor.rulers": [120],
+    "editor.semanticHighlighting.enabled": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true
+  },
+  "rubyLsp.rubyVersionManager": "rbenv",
+  "rubyLsp.formatter": "rubocop",
+  "rubyLsp.bundleGemfile": "Gemfile",
+  "rubyLsp.enableExperimentalFeatures": true,
+  "ruby.rubocop.useBundler": true,
+  "rubyLsp.enabledFeatures": {
+    "codeActions": true,
+    "diagnostics": false,
+    "documentHighlights": true,
+    "documentLink": true,
+    "documentSymbols": true,
+    "foldingRanges": true,
+    "formatting": true,
+    "hover": true,
+    "inlayHint": true,
+    "onTypeFormatting": true,
+    "selectionRanges": true,
+    "semanticHighlighting": true,
+    "completion": true,
+    "codeLens": true,
+    "definition": true,
+    "workspaceSymbol": true,
+    "references": true
+  },
+  "solargraph.autoformat": true,
+  "solargraph.bundlerPath": "",
+  "solargraph.commandPath": "/usr/local/bundle/bin/solargraph",
+  "solargraph.diagnostics": true,
+  "solargraph.rename": false,
+  // --------------------------------------------------
+
+  // .go --------------------------------------------------
+
+  // For gopls
+  "go.formatTool": "goimports",
+  "[go]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    },
+    // Optional: Disable snippets, as they conflict with completion ranking.
+    "editor.snippetSuggestions": "none"
+  },
+
+  // Global settings for gopls
+  // https://github.com/golang/tools/blob/master/gopls/doc/settings.md
+  "gopls": {
+    // === Officially supported Settings ===
+    // This controls the information that appears in the hover text.
+    "hoverKind": "SynopsisDocumentation",
+    // If true, then completion responses may contain placeholders for function parameters or struct fields.
+    "usePlaceholders": true,
+    // This controls where points documentation for given package in `textDocument/documentLink`.
+    "linkTarget": "pkg.go.dev",
+    // === Experimental Settings ===
+    // If true, it enables the use of the staticcheck.io analyzers.
+    // Warning: This will significantly increase memory usage.
+    "staticcheck": false,
+    // If false, indicates that the user does not want documentation with completion results.
+    "completionDocumentation": true,
+    // If true, the completion engine is allowed to make suggestions for packages that you do not currently import.
+    "completeUnimported": true,
+    // If true, this turns on the ability to return completions from deep inside relevant entities, rather than just the locally accessible ones.
+    "deepCompletion": true
+  },
+  "go.toolsManagement.autoUpdate": true,
+  // --------------------------------------------------
+
+  // --------------------------------------------------
+  // language-settings
+  // --------------------------------------------------
+  "[crystal]": {
+    "editor.compiler": "/usr/local/bin/crystal",
+    "editor.hover": true,
+    "editor.completion": true,
+    "editor.implementations": true
+  },
+  // "crystal-lang.compiler": "/usr/local/bin/crystal",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[dotenv]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[dart]": {
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust",
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true
+  },
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  // --------------------------------------------------
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "eslint.enable": true,
+  "files.autoSave": "onFocusChange",
+  "materialTheme.accent": "Cyan",
+  "explorer.confirmDelete": false,
+  "vsicons.dontShowNewVersionMessage": true,
+  "css.lint.float": "warning",
+  "css.trace.server": "messages",
+  "explorer.confirmDragAndDrop": false,
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "[ ]",
+    "[x]"
+  ],
+  "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+  "git.fetchOnPull": true,
+  "githubIssues.queries": [
+    {
+      "label": "My Issues",
+      "query": "default"
+    },
+    {
+      "label": "Created Issues",
+      "query": "author:${user} state:open repo:${owner}/${repository} sort:created-desc"
+    }
+  ],
+  "githubPullRequests.queries": [
+    {
+      "label": "mine",
+      "query": "is:pr author:${user}"
+    },
+    {
+      "label": "Waiting For My Review",
+      "query": "is:open review-requested:${user}"
+    }
+  ],
+  "railsRoutes.railsCommand": "bin/rails",
+  "shellformat.effectLanguages": [
+    "shellscript",
+    "dockerfile",
+    "dotenv",
+    "hosts",
+    "jvmoptions",
+    "ignore",
+    "gitignore",
+    "properties",
+    "spring-boot-properties",
+    "azcli"
+  ],
+  "scm.inputFontFamily": "defaultHack Nerd Font, Cica",
+  "window.titleBarStyle": "native",
+  "pasteImage.namePrefix": "${currentFileNameWithoutExt}_", // デフォルトのファイル名の頭にmarkdown名をつける
+  "pasteImage.path": "${currentFileDir}/img", //(markdownファイルのディレクトリ内)/img内に画像を保存
+  "pasteImage.prefix": "./", //pathの調整
+  "pasteImage.showFilePathConfirmInputBox": true, // ペースト時にファイル名を変更する
+  "pasteImage.filePathConfirmInputBoxMode": "onlyName",
+  "js/ts.implicitProjectConfig.checkJs": true,
+  "redhat.telemetry.enabled": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "vs-kubernetes": {
+    "vscode-kubernetes.helm-path.windows": "C:\\Users\\kurij\\.vs-kubernetes\\tools\\helm\\windows-amd64\\helm.exe",
+    "vscode-kubernetes.minikube-path.linux": "/home/iruk/.local/state/vs-kubernetes/tools/minikube/linux-amd64/minikube"
+  },
+  "tailwindCSS.files.exclude": ["**/.git/**", "**/.hg/**", "**/.svn/**"],
+  "githubPullRequests.pushBranch": "always",
+  "githubPullRequests.pullBranch": "never",
+  "githubPullRequests.terminalLinksHandler": "github",
+  "cSpell.userWords": [
+    "deepl",
+    "esbenp",
+    "Firestore",
+    "NEXTAUTH",
+    "nocheck",
+    "rgba",
+    "rubocop",
+    "solargraph",
+    "superjson",
+    "trpc",
+    "varchar"
+  ],
+  "vsintellicode.features.python.deepLearning": "enabled",
+  "commentTranslate.multiLineMerge": true,
+  "commentTranslate.targetLanguage": "ja",
+  "commentTranslate.selectTargetLanguageWhenReplacing": true,
+  "commentTranslate.hover.string": true,
+  "deeplTranslate.authKey": "21018ebd-07a3-a5aa-cc0c-789005fc0c90:fx",
+  "material-icon-theme.activeIconPack": "react",
+  "window.menuBarVisibility": "toggle",
+  "coverage-gutters.showRulerCoverage": true,
+  "coverage-gutters.showLineCoverage": true,
+  "codesandbox.currentWorkspace": "2108f524-8f9a-41c3-ae18-e9625da357d8",
+  "remote.SSH.remotePlatform": {
+    "sandbox.6lr6c9.csb": "linux"
+  },
+  "coverage-gutters.highlightdark": "rgba(0, 122, 30, 0.05)",
+  "coverage-gutters.noHighlightDark": "rgba(163, 0, 0, 0.05)",
+  "coverage-gutters.partialHighlightDark": "rgba(163, 149, 0, 0.05)",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "security.allowedUNCHosts": ["wsl.localhost"],
+  "security.promptForLocalFileProtocolHandling": false
+}

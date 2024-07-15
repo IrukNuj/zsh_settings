@@ -3,10 +3,13 @@ export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
 export STARSHIP_CONFIG=~/zsh/starship.toml
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+# eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
+# sudo chsh -s `command -v zsh` $USER
+
+# for wsl
 # https://qiita.com/samunohito/items/d167aed2552620e4dfae
-# export DISPLAY=`ip route | grep 'default via' | grep -Eo '[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}'`:0
+# export DISPLAY='ip route | grep "default via" | grep -Eo "[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}":0'
 
 # [zsh_index]------------------------------------------------------------
 source ~/zsh/dotfile/alias/alias.sh
@@ -54,3 +57,12 @@ export PATH="$HOME/.nodenv/bin:$PATH"
 HISTFILE=$HOME/.zsh-history # 履歴を保存するファイル
 HISTSIZE=100000             # メモリ上に保存する履歴のサイズ
 SAVEHIST=1000000            # 上述のファイルに保存する履歴のサイズ
+
+PATH=~/.console-ninja/.bin:$PATH
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"

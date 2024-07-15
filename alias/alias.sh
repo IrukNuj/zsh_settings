@@ -67,6 +67,7 @@ alias curl2='https --check-status --sorted --pretty 'all' '
 alias man='tldr'
 alias trans='trans en:ja -b'
 alias his='history'
+alias time='hyperfine'
 # ------------------------------------------------------------
 
 # ------------------------------------------------------------

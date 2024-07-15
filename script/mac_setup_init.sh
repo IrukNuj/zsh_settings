@@ -1,27 +1,21 @@
 # 起動音を小さく
 sudo nvram SystemAudioVolume=%01
-
 # 動きを高速化
-defaults write -g com.apple.trackpad.scaling -int 3
+defaults write -g com.apple.trackpad.scaling -int 0
+# 動きを高速化(マウス)
 # defaults write -g com.apple.mouse.scaling 1.5
-
 # タップしたときに、クリックとする
 defaults write -g com.apple.mouse.tapBehavior -int 1
-
 # キーのリピート
 defaults write NSGlobalDomain KeyRepeat -int 0
 # キーリピート開始までのタイミング
-defaults write NSGlobalDomain InitialKeyRepeat -int 0
-
+# defaults write NSGlobalDomain InitialKeyRepeat -int 0
 # フルキーボードアクセスを有効
 defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
-
 # 不可視ファイルを表示
 defaults write com.apple.finder AppleShowAllFiles YES
-
 # 全ての拡張子のファイルを表示する
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
-
 # 自動大文字の無効化
 defaults write NSGlobalDomain NSAutomaticCapitalizationEnabled -bool false
 defaults write -g NSAutomaticDashSubstitutionEnabled -int 0 # ダッシュ置換を無効
@@ -31,10 +25,8 @@ defaults write -g NSAutomaticSpellingCorrectionEnabled -int 0 # 自動スペル�
 defaults write -g NSAutomaticTextCompletionEnabled -int 0 # 自動テキスト補完を無効
 defaults write -g WebAutomaticSpellingCorrectionEnabled -int 0 # Web の自動スペル置換を無効
 defaults write com.apple.TextEdit CorrectSpellingAutomatically -bool false # 自動スペル修正を無効
-
 # デフォルトをplainTextに
 defaults write com.apple.TextEdit RichText -int 0
-
 # show hidden files in finder
 defaults write com.apple.finder AppleShowAllFiles YES
 # Automatically hide or show the Dock
@@ -55,13 +47,13 @@ defaults write NSGlobalDomain NSWindowResizeTime -float 0.001
 defaults write com.apple.dock autohide-delay -float 0
 # クイックルックでテキストを選択可能にする
 defaults write com.apple.finder QLEnableTextSelection -bool true
-
 # Always show scrollbars
 defaults write NSGlobalDomain AppleShowScrollBars -string "Always"
 # Possible values: `WhenScrolling`, `Automatic` and `Always`
 
 # Battery
 defaults write com.apple.menuextra.battery ShowPercent -string "YES" # バッテリーのパーセントを表示
+
 # Clock
 defaults write com.apple.menuextra.clock DateFormat -string "M月d日(EEE)  H:mm" # 月・日・曜日・時・分を表示
 
@@ -69,11 +61,10 @@ defaults write com.apple.menuextra.clock DateFormat -string "M月d日(EEE)  H:mm
 defaults write com.apple.networkConnect VPNShowTime -bool true # VPN の接続時間を表示
 
 # Enable HiDPI display modes (requires restart)
-sudo defaults write /Library/Preferences/com.apple.windowserver DisplayResolutionEnabled -bool true
+# sudo defaults write /Library/Preferences/com.apple.windowserver DisplayResolutionEnabled -bool true
 
 # Increase window resize speed for Cocoa applications
-defaults write NSGlobalDomain NSWindowResizeTime -float 0.001
-
+# defaults write NSGlobalDomain NSWindowResizeTime -float 0.001
 
 # Disable the over-the-top focus ring animation
 defaults write NSGlobalDomain NSUseAnimatedFocusRing -bool false
@@ -81,7 +72,7 @@ defaults write NSGlobalDomain NSUseAnimatedFocusRing -bool false
 # Adjust toolbar title rollover delay
 defaults write NSGlobalDomain NSToolbarTitleViewRolloverDelay -float 0
 
-defaults write -g AppleMiniaturizeOnDoubleClick -bool false # ダブルクリックで小型化しない
+# defaults write -g AppleMiniaturizeOnDoubleClick -bool false # ダブルクリックで小型化しない
 defaults write -g AppleActionOnDoubleClick -string "None" # ウインドウタイトルバーのダブルクリックでしまわない
 defaults write -g AppleSpacesSwitchOnActivate -int 0 # アプリケーションの切り替えで、アプリケーションのウインドウが開いている操作スペースに移動しない
 
@@ -119,3 +110,4 @@ sudo defaults write bluetoothaudiod "Enable AAC codec" -bool true
 ## bitpoolの最低値を上げて、Bluetoothヘッドフォン/ヘッドセットの音質を向上させる
 ### https://news.mynavi.jp/article/osxhack-63/
 defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" -int 40
+

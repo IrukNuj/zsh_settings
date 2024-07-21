@@ -1,0 +1,397 @@
+{
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "sync.gist": "60e697c1f728964eb424f326ce1193dc",
+  "sync.forceUpload": true,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "terminal.integrated.rendererType": "dom",
+  "crystal-lang.compiler": "/usr/local/bin/crystal",
+  "crystal-lang.hover": true,
+  "crystal-lang.completion": true,
+  "crystal-lang.implementations": true,
+  "[crystal]": {},
+  "python.jediEnabled": false,
+  // "eslint.enable": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "editor.formatOnType": true,
+  "materialTheme.accent": "Cyan",
+  "explorer.confirmDelete": false,
+  "todo-tree.tree.showScanModeButton": false,
+  "python.languageServer": "Microsoft",
+  "C_Cpp.updateChannel": "Insiders",
+  "vsicons.dontShowNewVersionMessage": true,
+  // For gopls
+  "go.formatTool": "goimports",
+  "[go]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    },
+    // Optional: Disable snippets, as they conflict with completion ranking.
+    "editor.snippetSuggestions": "none"
+  },
+  // Global settings for gopls
+  // https://github.com/golang/tools/blob/master/gopls/doc/settings.md
+  "gopls": {
+    // === Officially supported Settings ===
+    // This controls the information that appears in the hover text.
+    "hoverKind": "SynopsisDocumentation",
+    // If true, then completion responses may contain placeholders for function parameters or struct fields.
+    "usePlaceholders": true,
+    // This controls where points documentation for given package in `textDocument/documentLink`.
+    "linkTarget": "pkg.go.dev",
+    // === Experimental Settings ===
+    // If true, it enables the use of the staticcheck.io analyzers.
+    // Warning: This will significantly increase memory usage.
+    "staticcheck": false,
+    // If false, indicates that the user does not want documentation with completion results.
+    "completionDocumentation": true,
+    // If true, the completion engine is allowed to make suggestions for packages that you do not currently import.
+    "completeUnimported": true,
+    // If true, this turns on the ability to return completions from deep inside relevant entities, rather than just the locally accessible ones.
+    "deepCompletion": true
+  },
+  // "ruby.format": "rubocop",
+  "editor.formatOnSaveTimeout": 5000,
+  "ruby.locate": {
+    "exclude": "{**/@(test|spec|tmp|.*),**/@(test|spec|tmp|.*)/**,**/*_spec.rb}",
+    "include": "**/*.rb"
+  },
+  "editor.formatOnPaste": false,
+  "[ruby]": {
+    "editor.defaultFormatter": "misogi.ruby-rubocop"
+  },
+  "go.toolsManagement.autoUpdate": true,
+  "mssql.connections": [
+    {
+      "server": "{{put-server-name-here}}",
+      "database": "{{put-database-name-here}}",
+      "user": "{{put-username-here}}",
+      "password": ""
+    }
+  ],
+  "editor.tabSize": 2,
+  "editor.fontFamily": "HackGenNerd",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "files.trimTrailingWhitespace": true,
+  "solargraph.commandPath": "/Users/junpei.kuriyama/.rbenv/shims/solargraph",
+  "solargraph.rename": false,
+  "editor.formatOnSave": true,
+  "javascript.format.insertSpaceAfterConstructor": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "javascript.format.placeOpenBraceOnNewLineForFunctions": true,
+  "javascript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+  "javascript.format.semicolons": "insert",
+  "typescript.format.insertSpaceAfterConstructor": true,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
+  "typescript.format.insertSpaceAfterTypeAssertion": true,
+  "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "typescript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+  "typescript.format.placeOpenBraceOnNewLineForFunctions": true,
+  "typescript.format.semicolons": "insert",
+  "css.lint.float": "warning",
+  "css.trace.server": "messages",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.stylelint": "explicit"
+  },
+  "javascript.preferences.importModuleSpecifier": "non-relative",
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "codic.case": "snake_case",
+  "ruby.rubocop.suppressRubocopWarnings": true,
+  "explorer.confirmDragAndDrop": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "files.associations": {
+    "*.jb": "ruby"
+  },
+  "bracket-pair-colorizer-2.activeScopeCSS": [
+    "borderStyle : solid",
+    "borderWidth : 1px",
+    "borderColor : {color}",
+    "opacity: 0.5"
+  ],
+  "bracket-pair-colorizer-2.colors": [
+    "#FFD700",
+    "#DA70D6",
+    "#5F9EA0",
+    "#00ffdd"
+  ],
+  "solargraph.diagnostics": true,
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "[ ]",
+    "[x]"
+  ],
+  "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+  "git.fetchOnPull": true,
+  "githubIssues.queries": [
+    {
+      "label": "My Issues",
+      "query": "default"
+    },
+    {
+      "label": "Created Issues",
+      "query": "author:${user} state:open repo:${owner}/${repository} sort:created-desc"
+    }
+  ],
+  "githubPullRequests.queries": [
+    {
+      "label": "mine",
+      "query": "is:pr author:${user}"
+    },
+    {
+      "label": "Waiting For My Review",
+      "query": "is:open is:pr review-requested:junpei-kuriyama"
+    },
+    {
+      "label": "mine merged",
+      "query": "is:merged author:junpei-kuriyama"
+    }
+  ],
+  "railsRoutes.railsCommand": "bin/rails",
+  // "security.workspace.trust.untrustedFiles": "open",
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "shellformat.effectLanguages": [
+    "shellscript",
+    "dockerfile",
+    "dotenv",
+    "hosts",
+    "jvmoptions",
+    "ignore",
+    "gitignore",
+    "properties",
+    "spring-boot-properties",
+    "azcli"
+  ],
+  "scm.inputFontFamily": "HackGenNerd",
+  "window.titleBarStyle": "native",
+  "pasteImage.namePrefix": "${currentFileNameWithoutExt}_", // デフォルトのファイル名の頭にmarkdown名をつける
+  "pasteImage.path": "${currentFileDir}/img", //(markdownファイルのディレクトリ内)/img内に画像を保存
+  "pasteImage.prefix": "./", //pathの調整
+  "pasteImage.showFilePathConfirmInputBox": true, // ペースト時にファイル名を変更する
+  "pasteImage.filePathConfirmInputBoxMode": "onlyName",
+  "files.maxMemoryForLargeFilesMB": 16384,
+  "typescript.tsserver.maxTsServerMemory": 16384,
+  "liveshare.presence": true,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[dotenv]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "markdown-preview-enhanced.enableExtendedTableSyntax": true,
+  "markdown-preview-enhanced.enableScriptExecution": true,
+  "markdown-preview-enhanced.enableTypographer": true,
+  "markdown-preview-enhanced.scrollSync": true,
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "markdown-preview-enhanced.previewTheme": "night.css",
+  "markdown-preview-enhanced.enableHTML5Embed": true,
+  "markdown-preview-enhanced.enableCriticMarkupSyntax": true,
+  "markdown-preview-enhanced.HTML5EmbedIsAllowedHttp": true,
+  "markdown-preview-enhanced.HTML5EmbedUseLinkSyntax": true,
+  "markdown-preview-enhanced.mermaidTheme": "dark",
+  "typescript.suggest.completeFunctionCalls": true,
+  "typescript.suggest.completeJSDocs": true,
+  "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "typescript.inlayHints.parameterTypes.enabled": true,
+  "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "typescript.inlayHints.variableTypes.enabled": true,
+  "typescript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": true,
+  "typescript.inlayHints.enumMemberValues.enabled": true,
+  "typescript.inlayHints.parameterNames.enabled": "all",
+  "js/ts.implicitProjectConfig.checkJs": true,
+  "javascript.suggest.completeFunctionCalls": true,
+  "typescript.implementationsCodeLens.enabled": true,
+  "workbench.startupEditor": "none",
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust",
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true
+  },
+  "redhat.telemetry.enabled": true,
+  "workbench.colorTheme": "Monokai",
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "editor.inlineSuggest.enabled": true,
+  "vs-kubernetes": {
+    "vscode-kubernetes.helm-path.windows": "C:\\Users\\kurij\\.vs-kubernetes\\tools\\helm\\windows-amd64\\helm.exe",
+    "vscode-kubernetes.minikube-path.linux": "/home/iruk/.local/state/vs-kubernetes/tools/minikube/linux-amd64/minikube"
+  },
+  "files.exclude": {
+    "**/dist": true,
+    "**/build": true,
+    "**/cache": true,
+    "**/node_modules": true,
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/node_modules/**": true
+  },
+  "tailwindCSS.files.exclude": ["**/.git/**", "**/.hg/**", "**/.svn/**"],
+  "githubPullRequests.pushBranch": "always",
+  "githubPullRequests.pullBranch": "never",
+  "githubPullRequests.terminalLinksHandler": "github",
+  "deno.inlayHints.enumMemberValues.enabled": true,
+  "deno.inlayHints.functionLikeReturnTypes.enabled": true,
+  "deno.inlayHints.parameterNames.enabled": "all",
+  "deno.inlayHints.parameterTypes.enabled": true,
+  "deno.inlayHints.propertyDeclarationTypes.enabled": true,
+  "deno.inlayHints.variableTypes.enabled": true,
+  "cSpell.userWords": [
+    "Deactive",
+    "deepl",
+    "kidsdiary",
+    "NEXTAUTH",
+    "nocheck",
+    "rgba",
+    "superjson",
+    "trpc",
+    "varchar",
+    "XSMALL"
+  ],
+  "vsintellicode.features.python.deepLearning": "enabled",
+  "commentTranslate.multiLineMerge": true,
+  "commentTranslate.targetLanguage": "ja",
+  "commentTranslate.selectTargetLanguageWhenReplacing": true,
+  "commentTranslate.hover.string": true,
+  "deeplTranslate.authKey": "21018ebd-07a3-a5aa-cc0c-789005fc0c90:fx",
+  "workbench.iconTheme": "vscode-icons",
+  "material-icon-theme.activeIconPack": "react",
+  "editor.codeLensFontFamily": "HackGenNerdMono",
+  "editor.fontSize": 12,
+  "window.menuBarVisibility": "toggle",
+  "indentRainbow.colors": [
+    "rgba(3, 4, 94,0.15)",
+    "rgba(2, 62, 138,0.15)",
+    "rgba(0, 119, 182, 0.15)",
+    "rgba(0, 150, 199,0.15)",
+    "rgba(0, 180, 216,0.15)",
+    "rgba(72, 202, 228,0.15)",
+    "rgba(144, 224, 239,0.15)",
+    "rgba(144, 224, 239,0.1)",
+    "rgba(144, 224, 239,0.05)",
+    "rgba(144, 224, 239,0.025)"
+  ],
+  "terminal.integrated.env.linux": {},
+  "coverage-gutters.showRulerCoverage": true,
+  "coverage-gutters.showLineCoverage": true,
+  "codesandbox.currentWorkspace": "2108f524-8f9a-41c3-ae18-e9625da357d8",
+  "remote.SSH.remotePlatform": {
+    "sandbox.6lr6c9.csb": "linux"
+  },
+  "coverage-gutters.highlightdark": "rgba(0, 100, 30, 0.2)",
+  "coverage-gutters.noHighlightDark": "rgba(100, 0, 0, 0.2)",
+  "coverage-gutters.partialHighlightDark": "rgba(200, 150, 0, 0.4)",
+  "coverage-gutters.displayCoverage": true,
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.env.windows": {},
+  "bun.runtime": "/home/linuxbrew/.linuxbrew/bin/bun",
+  "bun.debugTerminal": {
+    // If support for Bun should be added to the default "JavaScript Debug Terminal".
+    "enabled": true,
+    // If the debugger should stop on the first line of the program.
+    "stopOnEntry": false
+  },
+  "settingsSync.ignoredExtensions": [],
+  "terminal.integrated.fontFamily": "Hack Nerd Font Mono",
+  "workbench.tree.indent": 12,
+  "gitlens.views.repositories.includeWorkingTree": true,
+  "window.zoomLevel": -2,
+  "git.autofetch": true,
+  "git.openRepositoryInParentFolders": "never",
+  "security.promptForLocalFileProtocolHandling": false,
+  "codestream.serverUrl": "https://codestream-us1.service.newrelic.com",
+  "smartClicks.htmlLanguageIds": [
+    "html",
+    "vue",
+    "svelte",
+    "react",
+    "jsx",
+    "tsx"
+  ],
+  "terminal.integrated.env.osx": {},
+  "console-ninja.featureSet": "Community",
+  // "files.useExperimentalFileWatcher": true,
+  "search.exclude": {
+    "/node_modules": true
+  },
+  "files.watcherExclude": {
+    "**/dist": true,
+    "**/build": true,
+    "**/cache": true,
+    "**/node_modules": true,
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/node_modules/**": true
+  },
+  "prettify-ts.viewNestedTypes": true,
+  "typescriptExplorer.errorMessages.showDialogue": true,
+  "typescriptExplorer.typeTree.meta.typeArguments.includeInFunctions": true,
+  "typescriptExplorer.typeTree.readonly.enable": true,
+  "eslint.run": "onSave",
+  "workspaceSidebar.folder": "~",
+  "workspaceSidebar.depth": 5,
+  "window.commandCenter": false,
+  "window.customTitleBarVisibility": "never",
+  "workbench.layoutControl.enabled": false,
+  "coverage-gutters.coverageFileNames": [
+    "lcov.info",
+    // "cov.xml",
+    // "coverage.xml",
+    // "jacoco.xml",
+    // "coverage.cobertura.xml",
+    "clover.xml"
+  ],
+  "javascript.inlayHints.enumMemberValues.enabled": true,
+  "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "javascript.inlayHints.parameterNames.enabled": "all",
+  "javascript.inlayHints.parameterTypes.enabled": true,
+  "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "javascript.inlayHints.variableTypes.enabled": true,
+  "typescript.preferences.preferTypeOnlyAutoImports": true,
+  "github.copilot.editor.enableAutoCompletions": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "diffEditor.ignoreTrimWhitespace": true,
+  "workbench.editor.enablePreview": false
+}

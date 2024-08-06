@@ -52,6 +52,9 @@ export REACT_EDITOR=code
 export PATH="/usr/local/sbin:$PATH"
 export PATH="$HOME/.nodenv/bin:$PATH"
 
+export GEM_HOME="$HOME/gems"
+export PATH="$HOME/gems/bin:$PATH"
+
 #################################  HISTORY  #################################
 # history
 HISTFILE=$HOME/.zsh-history # 履歴を保存するファイル
@@ -59,6 +62,7 @@ HISTSIZE=100000             # メモリ上に保存する履歴のサイズ
 SAVEHIST=1000000            # 上述のファイルに保存する履歴のサイズ
 
 PATH=~/.console-ninja/.bin:$PATH
+<<<<<<< Updated upstream
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
@@ -66,3 +70,5 @@ export NVM_DIR="$HOME/.nvm"
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+=======
+>>>>>>> Stashed changes
